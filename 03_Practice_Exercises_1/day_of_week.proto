@@ -14,5 +14,5 @@ message DayOfWeek {
         SUNDAY = 7;
     }
 
-    Weekday day_of_week = 0;
+    Weekday day_of_week = 1;
 }

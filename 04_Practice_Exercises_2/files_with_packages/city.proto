@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package my.city;
+
+message City {
+    // Name of city
+    string name = 1;
+
+    // Postal code for city
+    int32 zip_code = 2;
+
+    // Name of country where city resides
+    string country_name = 3;
+}

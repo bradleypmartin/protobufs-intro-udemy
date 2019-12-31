@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "04_Practice_Exercises_2/files_with_imports/city.proto";
+
+message Street {
+    // Name of street
+    string name = 1;
+
+    // City where street is located
+    City city = 2;
+}
